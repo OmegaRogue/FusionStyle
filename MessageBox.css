@@ -1,0 +1,172 @@
+/*
+	Note: Some of the styles are set directly from C++
+*/
+
+QDialog {
+    background-color: #3B3B3B;
+    border: 1px solid;
+    border-color: #404040;
+}
+
+QLabel,
+QCheckBox,
+QRadioButton,
+QPushButton {
+    font-family: Artifakt Element, Arial, Sans-Serif;
+}
+
+
+/* */
+
+
+/* QLabel, QCheckBox, QRadioButton */
+
+
+/* */
+
+QLabel,
+QCheckBox,
+QRadioButton {
+    color: #C0C0C6;
+    /* background-color: plum; */
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+QLabel#titleLabel {
+    background-color: #383838;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+QLabel#messageLabel {
+    margin-bottom: 8px;
+}
+
+QCheckBox {
+    margin-bottom: 8px;
+}
+
+QRadioButton {
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+
+/* */
+
+
+/* QPushButtons */
+
+
+/* */
+
+QPushButton {
+    background-color: #424447;
+    color: #C0C0C6;
+    font-size: 12px;
+    border: 1px solid #242424;
+    border-radius: 2px;
+    /* Qt doesn't appear to support the "box-sizing: border-box" property, so need to subtract 1px on all sides   */
+    height: 22px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+QPushButton:disabled {
+    border-color: #242424;
+    color: #6A6A70;
+    background-color: #323232;
+}
+
+
+/* QPushButton:hover {
+    background-color: purple;
+} */
+
+
+/* QPushButton:pressed {
+    background-color: indigo;
+} */
+
+QPushButton:default {
+    background-color: #354F85;
+    color: #EEEEEE;
+    border: 1px solid #354F85;
+}
+
+QPushButton:default:disabled {
+    background-color: #323232;
+    border: 1px solid #5E6060;
+    color: #777777;
+}
+
+
+/* QPushButton:default:hover {
+    background-color: teal;
+    border: 1px solid turquoise;
+}
+
+QPushButton:default:pressed {
+    background-color: #007EC0;
+    border: 1px solid #007EC0;
+} */
+
+QPushButton#CloseButton {
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+
+QPushButton#CloseButton:disabled {
+    background-color: transparent;
+    border: none;
+}
+
+
+/* QPushButton#CloseButton:hover {
+    background-color: transparent;
+    border: none;
+}
+
+QPushButton#CloseButton:pressed {
+    background-color: transparent;
+    border: none;
+} */
+
+
+/* */
+
+
+/* QFrames */
+
+
+/* */
+
+QFrame#titleSeparator {
+    color: #2C2C2C;
+}
+
+QFrame#statusIndicatorInfo {
+    color: transparent;
+    background-color: #38ABDF;
+}
+
+QFrame#statusIndicatorWarning {
+    color: transparent;
+    background-color: #FBB549;
+}
+
+QFrame#statusIndicatorError {
+    color: transparent;
+    background-color: #EB5555;
+}
+
+
+/* Windows' button area requires additional padding to achieve the correct height */
+
+QFrame#standardActions {
+    padding-bottom: 12px
+}
