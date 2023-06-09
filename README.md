@@ -7,6 +7,10 @@ Base folder is
 ```
 C:\Program Files\Autodesk\webdeploy\production\{currentID}
 ```
+or according to [#2](https://github.com/OmegaRogue/FusionStyle/issues/2)
+```
+%LocalAppData%\Autodesk\webdeploy\production\{currentID}
+```
 
 [dashboard_rel.css](dashboard_rel.css) goes into `{Base}\OfflineJS\OfflineJS.zip`
 
