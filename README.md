@@ -2,6 +2,8 @@
 
 A Dark Theme for Fusion360, because Autodesk is too lazy to make one
 
+Back up original files before replacing them (e.g. rename as .bak) to avoid issues and a full reinstall.
+
 ## Windows
 
 Base folder is 
@@ -28,3 +30,4 @@ _Note: to access subdirectories inside the application, right click `Autodesk Fu
 - [dashboard_rel.css](dashboard_rel.css) goes into `{BaseFolder}/Resources/OfflineJS/OfflineJS.zip`
 - [ActionMenu.css](ActionMenu.css) goes into `{BaseFolder}/Libraries/Neutron/Neutron/UI/Base/Resources/ActionMenu/style`
 - [MessageBox.css](MessageBox.css) goes into `{BaseFolder}/Libraries/Neutron/Neutron/UI/Base/Resources/CSS`
+  - Note: use also filename MessageBox_Mac.css  
